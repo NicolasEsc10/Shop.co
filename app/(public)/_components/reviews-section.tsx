@@ -38,8 +38,6 @@ const SectionReview = ({ title = "", reviews = [] }: Props) => {
         }}
         plugins={[
           Autoplay({
-            align: "center",
-            loop: true,
             delay: 2000,
           }),
         ]}
